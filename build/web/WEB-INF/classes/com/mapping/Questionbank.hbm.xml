@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 21 Dec, 2016 3:13:42 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.mapping.Questionbank" table="questionbank" catalog="exam">
+        <id name="qid" type="int">
+            <column name="qid" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="question" type="string">
+            <column name="question" />
+        </property>
+        <property name="ans1" type="string">
+            <column name="ans1" />
+        </property>
+        <property name="ans2" type="string">
+            <column name="ans2" />
+        </property>
+        <property name="ans3" type="string">
+            <column name="ans3" />
+        </property>
+        <property name="ans4" type="string">
+            <column name="ans4" />
+        </property>
+        <property name="answer" type="string">
+            <column name="answer" />
+        </property>
+    </class>
+</hibernate-mapping>

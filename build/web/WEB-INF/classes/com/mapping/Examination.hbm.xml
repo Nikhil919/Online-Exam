@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 21 Dec, 2016 3:13:42 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.mapping.Examination" table="examination" catalog="exam" optimistic-lock="version">
+        <id name="rid" type="string">
+            <column name="rid" length="20" />
+            <generator class="assigned" />
+        </id>
+    </class>
+</hibernate-mapping>
